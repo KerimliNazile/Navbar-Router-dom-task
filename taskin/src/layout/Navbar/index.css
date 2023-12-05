@@ -1,0 +1,87 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 250px;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    color: #1fa67a;
+    font-size: 24px;
+}
+.active {
+    background-color: #1fa67a;
+    color: white;
+}
+.navig {
+    text-decoration: none;
+    width: 67px;
+    height: 66px;
+    padding: 15px;
+    color: #999;
+}
+
+.navig:hover {
+    background-color: #1fa67a;
+    color: white;
+}
+
+.dropdown {
+    display: none;
+
+}
+
+.links {
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.links li {
+    cursor: pointer;
+}
+
+.about {
+    position: relative;
+}
+
+.disabled {
+    color: gray;
+    cursor: none !important;
+}
+
+.open-drop {
+    margin-top: 15px;
+    display: block;
+    position: absolute;
+    background-color: white;
+    width: 275px;
+    left: 0;
+    padding: 15px;
+}
+
+.fa-solid {
+    color: grey;
+    font-size: 17px;
+}
+
+.fa-envira {
+    font-size: 19px;
+}
+
+li {
+    list-style: none;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+a {
+    /* background-color: #1fa67a; */
+    color:grey;
+    text-decoration: none;
+}
+
+.comment,
+.more {
+    font-size: 16px;
+}
