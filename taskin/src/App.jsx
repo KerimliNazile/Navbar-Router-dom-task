@@ -7,7 +7,7 @@ import Clearing from './components/Clearing'
 import Comment from './components/Comment'
 import PageWithDisabled from './components/PageDisabled'
 import PageMarkup from './components/PageMarkup'
-import { Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import GalleryPage from './pages/GalleryPage'
 import ShortcodesPage from './pages/ShortcodesPage'
@@ -15,11 +15,12 @@ import LanguagePage from './pages/LanguagesPage'
 import AboutPage from './pages/AboutPage'
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
     <>
        <Routes>
+        
     <Route path='/' element={<Layout/>}>
       <Route index element={<HomePage/>}/>
       <Route path='/gallery' element={<GalleryPage/>}/>

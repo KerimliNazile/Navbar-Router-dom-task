@@ -1,14 +1,22 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    margin: 30px 250px;
+    margin: -90px 250px;
     align-items: center;
+  
 }
 
 .logo {
     text-decoration: none;
     color: #1fa67a;
     font-size: 24px;
+}
+.logo h1{
+    font-size: 2.2rem;
+    &:hover{
+        color: black;
+        transition: 0.5s;
+    }
 }
 .active {
     background-color: #1fa67a;
@@ -29,6 +37,7 @@
 
 .dropdown {
     display: none;
+    right: 30px;
 
 }
 
@@ -39,6 +48,7 @@
 
 .links li {
     cursor: pointer;
+    color: grey;
 }
 
 .about {
@@ -84,4 +94,19 @@ a {
 .comment,
 .more {
     font-size: 16px;
+}
+.menu-item a{
+color: grey;
+&:hover{
+    background-color: #1fa67a;
+    color: aliceblue;
+    transition: 0.5s;
+
+}
+}
+
+
+.menu-item:hover .fa-solid{
+     color: aliceblue;
+     transition: 0.5s;
 }

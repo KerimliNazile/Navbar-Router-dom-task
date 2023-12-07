@@ -3,7 +3,7 @@ import React from 'react'
 const PageWithDisabled = () => {
   return (
     <div>
-      <h1>Page with comments disabled</h1>
+      <h4>Page with comments disabled</h4>
       </div>
   )
 }

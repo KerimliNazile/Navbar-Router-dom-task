@@ -1,0 +1,10 @@
+.footer{
+    background-color: rgb(76, 75, 75);
+    margin-top: 180px;
+}
+.footer h2{
+    color: green;
+}
+.footer p{
+    color: aliceblue;
+}
